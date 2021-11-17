@@ -260,21 +260,26 @@
                                     }
                                     .logo {
                                         margin-left: 76px;
-                                        font: bold 26px/37px pt_serif, arial, helvetica, sans-serif;
+                                        font: bold 26px/34px pt_serif, arial, helvetica, sans-serif;
+                                    }
+                                    .menu {
+                                        margin-top: 7px;
+                                        letter-spacing: 0.30px;
+                                        margin-right: -8px;
                                     }
                                     .menu__item {
-                                        margin: 0px 24px 0 0px;
-                                        font: 500 14px/17px Roboto, arial, helvetica, sans-serif;
+                                        margin: 0px 24px 0 1px;
+                                        font: 500 14px/14px Roboto, arial, helvetica, sans-serif;
                                     }
                                     .menu__item:last-child {
                                         margin-right: 29;
                                     }
                                     .main {
-                                        padding: 45px 0;
-                                        background-image: url(img/mainimg.svg);
-                                        background-position-x: 86%;
+                                        padding: 49px 0;
+                                        background-image: url(img/mainImg.svg);
+                                        background-position-x: 87%;
                                         background-position-y: 89px;
-                                        background-size: 47%;
+                                        background-size: 48%;
                                     }
                                     .main__title {
                                         width: 434px;
@@ -309,19 +314,23 @@
                                     }
                                     .logo {
                                         margin: 0 0 0 7px;
-                                        font: bold 26px/31px pt_serif, arial, helvetica, sans-serif;
+                                        font: bold 26px/33px pt_serif, arial, helvetica, sans-serif;
+                                    }
+                                    .menu {
+                                        margin-top: 5px;
+                                        margin-right: -1px;
                                     }
                                     .menu__item {
-                                        margin: 3px 20px 0 6px;
+                                        margin: 6px 18px 0 6px;
                                     }
                                     .menu__item:last-child {
                                         margin: 3px 8px 0 8px;
                                     }
                                     .main {
-                                        padding: 43px 63% 13% 0;
-                                        background-position-x: 99%;
-                                        background-size: 55%;
-                                        background-position-y: 91px;
+                                        padding: 42px 63% 13% 0;
+                                        background-position-x: 98%;
+                                        background-size: 54%;
+                                        background-position-y: 94px;
                                     }
                                     .main__title {
                                         margin: -9px 0 0 8px;
@@ -332,8 +341,8 @@
                                         padding-top: 3px;
                                     }
                                     .main__button {
-                                        padding: 16px 25px 14px 17px;
-                                        margin-left: 8px;
+                                        padding: 13px 25px 14px 17px;
+                                        margin-left: 9px;
                                     }
                                     .dots {
                                         margin-top: 23px;
@@ -385,7 +394,7 @@
                                         height: 26px;
                                         cursor: pointer;
                                         z-index: 1;
-                                        left: 325px;
+                                        left: 685px;
                                     }
                                     .menu__btn>span,
                                     .menu__btn>span::before,
@@ -483,7 +492,7 @@
                                     }
                                 }
                                 
-                                @media (max-width: 368px) {
+                                @media (max-width: 376px) {
                                     .logo {
                                         margin-left: -2px;
                                     }
@@ -491,8 +500,12 @@
                                         background-image: url(img/mainImg.svg);
                                         background-position: top center;
                                         background-size: 87%;
-                                        padding: 270px 0 0 1px;
+                                        padding: 269px 0 0 1px;
                                         margin-top: 0px;
+                                    }
+                                    .main__title {
+                                        letter-spacing: 1.1px;
+                                        margin: -9px 0 0 0px;
                                     }
                                     .main__subtitle {
                                         margin-bottom: 10px;
