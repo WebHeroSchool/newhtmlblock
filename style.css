@@ -302,6 +302,13 @@
                                         margin-top: 102px;
                                     }
                                 }
+                                /*                                 
+                                @media (max-width: 1050px) {
+                                    .main {
+                                        background-position-x: 100%;
+                                        width: 100%;
+                                    }
+                                } */
                                 
                                 @media (max-width: 1024px) {
                                     .wrapper {
@@ -327,10 +334,11 @@
                                         margin: 3px 8px 0 8px;
                                     }
                                     .main {
+                                        width: 90%;
                                         padding: 42px 63% 13% 0;
-                                        background-position-x: 98%;
-                                        background-size: 54%;
-                                        background-position-y: 94px;
+                                        background-position-x: 45%;
+                                        background-size: 35%;
+                                        background-position-y: 96px;
                                     }
                                     .main__title {
                                         margin: -9px 0 0 8px;
@@ -394,7 +402,7 @@
                                         height: 26px;
                                         cursor: pointer;
                                         z-index: 1;
-                                        left: 685px;
+                                        left: 90%;
                                     }
                                     .menu__btn>span,
                                     .menu__btn>span::before,
@@ -496,12 +504,16 @@
                                     .logo {
                                         margin-left: -2px;
                                     }
+                                    .menu__btn {
+                                        left: 325px;
+                                    }
                                     .main {
                                         background-image: url(img/mainImg.svg);
                                         background-position: top center;
-                                        background-size: 87%;
-                                        padding: 269px 0 0 1px;
+                                        background-size: 85%;
+                                        padding: 269px 0 0 5px;
                                         margin-top: 0px;
+                                        width: 100%;
                                     }
                                     .main__title {
                                         letter-spacing: 1.1px;
@@ -512,11 +524,11 @@
                                         width: 75%;
                                         font: 450 16px /19px Roboto, arial, helvetica, sans-serif;
                                         text-align: center;
-                                        margin-left: 44px;
+                                        margin-left: 39px;
                                         margin-top: 29px;
                                     }
                                     .main__button {
-                                        margin-top: 29px;
-                                        margin-left: 58px;
+                                        margin-top: 30px;
+                                        margin-left: 54px;
                                     }
                                 }
